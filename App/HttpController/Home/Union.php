@@ -115,8 +115,8 @@ class Union extends Base
 	if(empty($systemidfas)) {
             if($out) { //配置了去重接口的
                 $waibu_res = QcLogic::getInstance()->waibuQc($qc_param,$param['idfa']);
-		if($waibu_res['return']['falg'] === false) {
-                    return json_encode(["data"=>0,"info"=>$waibu_res['return']['msg'],"status"=> 0]);
+		        if($waibu_res['return']['falg'] === false) {
+                    $this->response()->write(json_encode(["data"=>0,"info"=>$waibu_res['return']['msg'],"status"=> 0]));
                 }else{
                     $installed = $waibu_res["return"]['msg'][$param['idfa']]; 
                     //插入qc_log表
@@ -128,18 +128,18 @@ class Union extends Base
                     $quchong->queryBuilder()->insert($qcdbconfig['tablename'],$adddatas);
                     $insert_res = $quchong->execBuilder();
                     if(!$insert_res) {
-                        return json_encode(["data"=>0,"info"=>"error","status"=> 0]);
+                        $this->response()->write(json_encode(["data"=>0,"info"=>"error","status"=> 0]));
                     }
                 }
-                return json_encode($waibu_res["return"]['msg']);
+                $this->response()->write(json_encode($waibu_res["return"]['msg']));
             }else{  //未配置去重接口直接返回成功
                 $insert_data = ["fid" => 0, "tuserid" => 0, "idfa" => $param['idfa'], "checktime" => 0, "lchecktime" => 0, "localinstalled" => 0, "installed" => 0, "tasking" => 0, "addtasktime" => time(),'source'=>$param['source'],'udid'=>$param['udid']];
                 $quchong->queryBuilder()->insert($qcdbconfig['tablename'],$insert_data);
                 $insert_res = $quchong->execBuilder();
                 if(!$insert_res) {
-                    return json_encode(["data"=>0,"info"=>"error","status"=> 0]);
+                    $this->response()->write(json_encode(["data"=>0,"info"=>"error","status"=> 0]));
                 }
-                return json_encode([$param['idfa'] => 0]);
+                $this->response()->write(json_encode([$param['idfa'] => 0]));
             }
         }else{
             //如果三个鉴别完成的字段都通过
@@ -149,7 +149,7 @@ class Union extends Base
                         //外部去重
                         $waibu_res = QcLogic::getInstance()->waibuQc($param['idfa']);
                         if($waibu_res['return']['falg'] === false) {
-                            return json_encode(["data"=>0,"info"=>$waibu_res['return']['msg'],"status"=> 0]);
+                            $this->response()->write(json_encode(["data"=>0,"info"=>$waibu_res['return']['msg'],"status"=> 0]));
                         }else{
                             //插入qc_log表
                             $qc_data = ['appiosid'=>$param['id'],'result'=>serialize($waibu_res['return']['msg']),'boundid'=>$appios['boundid'],'url'=>$waibu_res["sendurl"],'response'=>$waibu_res["urlout"].'_'.$param['source'],'time'=>time(),'idfa'=>$param['idfa'],'installed'=>$installed];
@@ -161,23 +161,23 @@ class Union extends Base
                             $quchong->queryBuilder()->where('idfa',$param['idfa'])->update($qcdbconfig['tablename'],$adddatas);
                             $insert_res = $quchong->execBuilder();
                             if(!$insert_res) {
-                                return json_encode(["data"=>0,"info"=>"error","status"=> 0]);
+                                $this->response()->write(json_encode(["data"=>0,"info"=>"error","status"=> 0]));
                             }
                         }
-                        return json_encode($waibu_res["return"]['msg']);
+                        $this->response()->write(json_encode($waibu_res["return"]['msg']));
                     }else{
                         $quchong->queryBuilder()->where('idfa',$param['idfa'])->update($qcdbconfig['tablename'],['source'=>$param['source'],'addtasktime'=>time(),'udid'=>$param['udid']]);
                         $quchong->execBuilder();
-                        return json_encode([$param['idfa'] => 0]);
+                        $this->response()->write(json_encode([$param['idfa'] => 0]));
                     }
                 }else{
                     if($systemidfas['source'] != 'aishenma' && $systemidfas['source'] == $param['source']) {
                         $quchong->queryBuilder()->where('idfa',$param['idfa'])->update($qcdbconfig['tablename'],['addtasktime'=>time()]);
                         $quchong->execBuilder();
-                        return json_encode([$param['idfa'] => 0]);
+                        $this->response()->write(json_encode([$param['idfa'] => 0]));
                     }else{
                         Logger::getInstance()->info(date('YmdHim').":".$qcdbconfig['tablename'].":".$param['idfa']);
-                        return json_encode([$param['idfa'] => 1]);
+                        $this->response()->write(json_encode([$param['idfa'] => 1]));
                     }
                 }
             }else{
