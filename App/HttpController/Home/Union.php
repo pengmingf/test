@@ -11,6 +11,10 @@ use App\Vendor\ip\ip;
 
 class Union extends Base
 {
+    public function testindex()
+    {
+	$this->writeJson(200,['blance'=>'hello','name'=>'word'],'请求成功');
+    }
     public function onrequest(?string $action):bool
     {
         return true;
@@ -23,20 +27,20 @@ class Union extends Base
         // $main_db->execBuilder();
         // $main_db->queryBuilder()->where('id',3)->update('task_main',['addres'=>101]);
         // $main_db->execBuilder();
-        $main_db->queryBuilder()->fields('adname')->get('task_main');                      //sql预备
-        var_dump(array_column($main_db->execBuilder(),'adname'));
+        #$main_db->queryBuilder()->fields('adname')->where('id',285280,'>')->get('task_main');                      //sql预备
+        #$this->writeJson(200,array_column($main_db->execBuilder(),'adname'),'success');
         
         // var_dump($main_db->queryBuilder()->get('task_main')->execBuilder());                               //获取执行结果
         // Manager::getInstance()->get("main_db")->recycleObj($main_db);    //回收对象到连接池
-        return;
+        #return;
         
         $this->response()->withHeader('Content-type','application/json;charset=utf-8');
         $param = $this->request()->getRequestParam();
         //校验接口参数
         $main_db->queryBuilder()->fields('source')->get("wf_source");
         $wf_source = $main_db->execBuilder();
-        $msg = QcLogic::getInstance()->checkParam($param,array_column($wf_source,'source'));
-        if($msg !== true) {
+	$msg = QcLogic::getInstance()->checkParam($param,array_column($wf_source,'source'));
+   	if($msg !== true) {
             $this->error($msg);
         }
         //检验开关是否打开
@@ -49,11 +53,11 @@ class Union extends Base
         $main_db->queryBuilder()->where('appiosid',$param['appiosid'])->where('s_time',time(),'<')->where('e_time',time(),'>')->get('wf_watch');
         $wf_watch = $main_db->execBuilder();
         $wf_res = QcLogic::getInstance()->checkWf($wf_watch,$param);
-        if($wf_res !== true) {
+	if($wf_res !== true) {
             $this->error($wf_res);
         }
         //是否需要校验idfa
-        if($wf_watch['is_checkidfa'] == 1 && $param['source'] != 'fift') {
+        if($wf_watch[0]['is_checkidfa'] == 1 && $param['source'] != 'fift') {
             $main_db->queryBuilder()->where('idfa',$param['idfa'])->getOne('reyun_log');
             $reyun_log = $main_db->execBuilder()[0];
             if(empty($reyun_log)) {
@@ -85,7 +89,7 @@ class Union extends Base
             $this->error($qcdeal_res['msg']);
         }
         $qc_param = $qcdeal_res['msg'];
-        //缓存该应用
+	//缓存该应用
         $qcdbconfig = Cache::getInstance()->get('qcdbconfig'.$appios['boundid']);
         if(empty($qcdbconfig)) {
             $main_db->queryBuilder()->where('pgname',$appios['boundid'])->getOne('qdbconfig');
@@ -106,12 +110,12 @@ class Union extends Base
         //开始去重。（内部去重都要走）
         $quchong->queryBuilder()->fields(['idfa','installed','localinstalled','fid','addtasktime','source'])->where('idfa',$param['idfa'])->getOne($qcdbconfig['tablename']);
         $systemidfas = $quchong->execBuilder()[0];
-        $out = ((!empty($qc_param['qc']['qc_url']) || !empty($qc_param['qc']['qc_fun'])) && !empty($qc_param['qc']['qc_number']) && !empty($qc_param['qc']['pattern'])) ?: false;
-        //先走内部去重(尝试融合内部和外部)
-        if(empty($systemidfas)) {
+        $out = ((!empty($qc_param['qc_url']) || !empty($qc_param['qc_fun'])) && !empty($qc_param['qc_number']) && !empty($qc_param['pattern'])) ?: false;
+	//先走内部去重(尝试融合内部和外部)
+	if(empty($systemidfas)) {
             if($out) { //配置了去重接口的
                 $waibu_res = QcLogic::getInstance()->waibuQc($qc_param,$param['idfa']);
-                if($waibu_res['return']['falg'] === false) {
+		if($waibu_res['return']['falg'] === false) {
                     return json_encode(["data"=>0,"info"=>$waibu_res['return']['msg'],"status"=> 0]);
                 }else{
                     $installed = $waibu_res["return"]['msg'][$param['idfa']]; 
@@ -180,7 +184,7 @@ class Union extends Base
                 if($systemidfas['installed'] == 0 && $systemidfas['localinstalled'] == 0 && $systemidfas['fid'] != 0 ) {
                     Logger::getInstance()->info(date('YmdHim').":".$qcdbconfig['tablename'].":".$param['idfa']);
                 }
-                return json_encode([$param['idfa'] => 1]);
+                $this->response()->write(json_encode([$param['idfa'] => 1]));
             }
         }
     }

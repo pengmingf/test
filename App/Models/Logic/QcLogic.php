@@ -43,12 +43,12 @@ class QcLogic extends Base
     public function checkWf(array $wf,array $param)
     {
         if(empty($wf) && !in_array($param['source'],['moneyds','daxiasw','fift'])) {
-            Logger::getInstance()->error(date('YmdHim')."notstart_qudao:".$param['source'].",id:".$param['appiosid'].',wf_watch'.$wf);
+            Logger::getInstance()->error(date('YmdHim')."notstart_qudao:".$param['source'].",id:".$param['appiosid'].',wf_watch'.$wf,'error');
             return "非法请求!";
         }
-        $sourcewf = $wf[0];
-        foreach($sourcewf as $val) {
-            $des = json_decode($val,true);
+        $sourcewfwatch = $wf[0];
+        foreach($wf as $val) {
+            $des = json_decode($val['description'],true);
             if(in_array($param['source'],array_column($des,'source'))) {
                 $sourcewfwatch = $val;
                 break;
@@ -61,7 +61,7 @@ class QcLogic extends Base
             if(!in_array($param['source'],array_column($descriptions,'source'))) {
                 if (!in_array($param['source'], ['moneyds', 'dxshiwan', 'fift','mmpig'])) {
                     //日志记录这种请求的渠道信息
-                    Logger::getInstance()->error(date('YmdHim') . "no_qudao:" . $param['source'] . ",id:" . $param['appiosid']);
+                    Logger::getInstance()->error(date('YmdHim') . "no_qudao:" . $param['source'] . ",id:" . $param['appiosid'],'error');
                     return "非法请求";
                 }
             }
@@ -244,7 +244,7 @@ class QcLogic extends Base
             $urlresult["return"] = ['flag'=>false,'msg'=>'去重地址不能为空'];
             return $urlresult;
         }
-        if($option['idfa_key']=='device_info_list'){
+        if($option['idfa']=='device_info_list'){
             $idfa=json_encode(['idfa'=>$idfa]);
         }
         $url = $option['qc_url'];

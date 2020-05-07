@@ -90,6 +90,6 @@ class Base extends Controller
      */
     public function error($message)
     {
-        $this->response->write(json_encode(['data'=>0,'info'=>$message,'status'=>0]));
+        $this->response()->write(json_encode(['data'=>0,'info'=>$message,'status'=>0]));
     }
 }

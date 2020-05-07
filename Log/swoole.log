@@ -1,423 +1,580 @@
-[2020-04-24 16:32:04 $11184.0]	INFO	Server is reloading all workers now
-[2020-04-24 16:32:05 $11184.0]	INFO	Server is reloading all workers now
-[2020-04-24 16:49:22 $11184.0]	INFO	Server is reloading all workers now
-[2020-04-24 17:04:38 $11184.0]	INFO	Server is reloading all workers now
-[2020-04-24 17:07:42 $11184.0]	INFO	Server is reloading all workers now
-[2020-04-24 17:07:43 $11184.0]	INFO	Server is reloading all workers now
-[2020-04-24 17:07:49 $11184.0]	INFO	Server is reloading all workers now
-[2020-04-24 17:07:50 $11184.0]	INFO	Server is reloading all workers now
-[2020-04-24 17:08:16 $11184.0]	INFO	Server is reloading all workers now
-[2020-04-24 17:08:29 $11184.0]	INFO	Server is reloading all workers now
-[2020-04-24 17:08:30 $11184.0]	INFO	Server is reloading all workers now
-[2020-04-24 17:08:34 $11184.0]	INFO	Server is reloading all workers now
-[2020-04-24 17:08:35 $11184.0]	INFO	Server is reloading all workers now
-[2020-04-24 17:09:44 $11184.0]	INFO	Server is reloading all workers now
-[2020-04-24 17:10:31 $11184.0]	INFO	Server is reloading all workers now
-[2020-04-24 17:10:35 $11184.0]	INFO	Server is reloading all workers now
-[2020-04-24 17:10:53 $11184.0]	INFO	Server is reloading all workers now
-[2020-04-24 17:12:15 $11184.0]	INFO	Server is reloading all workers now
-[2020-04-24 17:12:16 $11184.0]	INFO	Server is reloading all workers now
-[2020-04-24 17:12:28 $11184.0]	INFO	Server is reloading all workers now
-[2020-04-24 17:12:42 $11184.0]	INFO	Server is reloading all workers now
-[2020-04-24 17:16:35 $11557.0]	INFO	Server is reloading all workers now
-[2020-04-24 18:09:26 $11686.0]	INFO	Server is reloading all workers now
-[2020-04-24 18:09:55 $11686.0]	INFO	Server is reloading all workers now
-[2020-04-24 18:10:06 $11686.0]	INFO	Server is reloading all workers now
-[2020-04-24 18:11:06 $11796.0]	INFO	Server is reloading all workers now
-[2020-04-24 18:11:35 $11796.0]	INFO	Server is reloading all workers now
-[2020-04-24 18:11:36 $11796.0]	INFO	Server is reloading all workers now
-[2020-04-24 18:12:09 $11796.0]	INFO	Server is reloading all workers now
-[2020-04-24 18:12:28 $11796.0]	INFO	Server is reloading all workers now
-[2020-04-24 18:12:37 $11796.0]	INFO	Server is reloading all workers now
-[2020-04-24 18:16:17 $11796.0]	INFO	Server is reloading all workers now
-[2020-04-24 18:16:34 $11796.0]	INFO	Server is reloading all workers now
-[2020-04-24 18:17:27 $11796.0]	INFO	Server is reloading all workers now
-[2020-04-24 18:17:31 $11796.0]	INFO	Server is reloading all workers now
-[2020-04-24 18:17:58 $11796.0]	INFO	Server is reloading all workers now
-[2020-04-24 18:20:29 $11796.0]	INFO	Server is reloading all workers now
-[2020-04-24 18:23:03 $11796.0]	INFO	Server is reloading all workers now
-[2020-04-24 18:23:34 $11796.0]	INFO	Server is reloading all workers now
-[2020-04-24 18:23:35 $11796.0]	INFO	Server is reloading all workers now
-[2020-04-24 18:23:36 $11796.0]	INFO	Server is reloading all workers now
-[2020-04-24 18:23:51 $11796.0]	INFO	Server is reloading all workers now
-[2020-04-24 18:23:52 $11796.0]	INFO	Server is reloading all workers now
-[2020-04-24 18:25:20 $11796.0]	INFO	Server is reloading all workers now
-[2020-04-24 18:25:21 $11796.0]	INFO	Server is reloading all workers now
-[2020-04-24 18:26:33 *12015.7]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
-[2020-04-24 18:26:33 *12014.6]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
-[2020-04-24 18:26:33 *12013.5]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
-[2020-04-24 18:26:33 *12012.4]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
-[2020-04-24 18:26:33 *12011.3]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
-[2020-04-24 18:26:33 *12010.2]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
-[2020-04-24 18:26:33 *12009.1]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
-[2020-04-24 18:26:33 *12008.0]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
-[2020-04-24 18:26:33 $12006.0]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
-[2020-04-24 18:26:33 $12006.0]	WARNING	swManager_check_exit_status: worker#9[pid=12017] abnormal exit, status=0, signal=1
-[2020-04-24 18:26:33 $12006.0]	WARNING	swManager_check_exit_status: worker#10[pid=12018] abnormal exit, status=0, signal=1
-[2020-04-24 18:26:33 $12006.0]	WARNING	swManager_check_exit_status: worker#11[pid=12019] abnormal exit, status=0, signal=1
-[2020-04-24 18:26:33 $12006.0]	WARNING	swManager_check_exit_status: worker#12[pid=12020] abnormal exit, status=0, signal=1
-[2020-04-24 18:26:33 $12006.0]	WARNING	swManager_check_exit_status: worker#13[pid=12021] abnormal exit, status=0, signal=1
-[2020-04-24 18:26:33 $12006.0]	WARNING	swManager_check_exit_status: worker#14[pid=12022] abnormal exit, status=0, signal=1
-[2020-04-24 18:26:33 $12006.0]	WARNING	swManager_check_exit_status: worker#15[pid=12023] abnormal exit, status=0, signal=1
-[2020-04-24 18:26:33 $12006.0]	WARNING	swManager_check_exit_status: worker#16[pid=12024] abnormal exit, status=0, signal=1
-[2020-04-24 18:26:33 #12005.1]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
-[2020-04-24 18:26:33 $12006.0]	WARNING	swManager_check_exit_status: worker#8[pid=12016] abnormal exit, status=0, signal=1
-[2020-04-26 09:35:19 #12005.1]	INFO	Server is shutdown now
-[2020-04-26 10:20:19 $18475.0]	INFO	Server is reloading all workers now
-[2020-04-26 10:20:50 *18738.2]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Declaration of App\HttpController\Common\Base::onrequest() must be compatible with EasySwoole\Http\AbstractInterface\Controller::onRequest(?string $action): ?bool in /www/Catqcs/App/HttpController/Common/Base.php on line 7
-[2020-04-26 10:20:50 $18475.0]	WARNING	swManager_check_exit_status: worker#2[pid=18738] abnormal exit, status=255, signal=0
-[2020-04-26 10:21:40 $18475.0]	INFO	Server is reloading all workers now
-[2020-04-26 10:22:22 $18475.0]	INFO	Server is reloading all workers now
-[2020-04-26 10:22:49 $18475.0]	INFO	Server is reloading all workers now
-[2020-04-26 10:29:23 $18794.0]	INFO	Server is reloading all workers now
-[2020-04-26 10:30:59 $18794.0]	INFO	Server is reloading all workers now
-[2020-04-26 10:31:04 $18794.0]	INFO	Server is reloading all workers now
-[2020-04-26 10:33:02 $18794.0]	INFO	Server is reloading all workers now
-[2020-04-26 10:46:37 $18794.0]	INFO	Server is reloading all workers now
-[2020-04-26 10:46:55 $18794.0]	INFO	Server is reloading all workers now
-[2020-04-26 10:46:56 $18794.0]	INFO	Server is reloading all workers now
-[2020-04-26 10:48:09 $18794.0]	INFO	Server is reloading all workers now
-[2020-04-26 10:52:02 $18794.0]	INFO	Server is reloading all workers now
-FileScanner hot reload initialize at Linux in PID 19134 ...
-HOT_RELOAD: reloaded at 1587873044
-[2020-04-26 11:50:44 $19124.0]	INFO	Server is reloading all workers now
-HOT_RELOAD: reloaded at 1587873139
-[2020-04-26 11:52:19 $19124.0]	INFO	Server is reloading all workers now
-HOT_RELOAD: reloaded at 1587873143
-[2020-04-26 11:52:23 $19124.0]	INFO	Server is reloading all workers now
-HOT_RELOAD: reloaded at 1587873145
-[2020-04-26 11:52:25 $19124.0]	INFO	Server is reloading all workers now
-[2020-04-26 13:21:33 #19123.1]	INFO	Server is shutdown now
-[2020-04-26 16:01:07 $19845.0]	INFO	Server is reloading all workers now
-[2020-04-26 16:03:26 $19845.0]	INFO	Server is reloading all workers now
-[2020-04-26 16:03:44 $19845.0]	INFO	Server is reloading all workers now
-[2020-04-26 16:03:51 $19845.0]	INFO	Server is reloading all workers now
-[2020-04-26 16:05:18 $19845.0]	INFO	Server is reloading all workers now
-[2020-04-26 16:05:27 $19845.0]	INFO	Server is reloading all workers now
-[2020-04-26 16:05:28 $19845.0]	INFO	Server is reloading all workers now
-[2020-04-26 16:07:04 $19845.0]	INFO	Server is reloading all workers now
-[2020-04-26 16:08:10 $19845.0]	INFO	Server is reloading all workers now
-[2020-04-26 16:09:04 $19845.0]	INFO	Server is reloading all workers now
-[2020-04-26 16:09:22 $19845.0]	INFO	Server is reloading all workers now
-[2020-04-26 16:09:23 $19845.0]	INFO	Server is reloading all workers now
-[2020-04-26 16:10:03 $19845.0]	INFO	Server is reloading all workers now
-[2020-04-26 16:10:04 $19845.0]	INFO	Server is reloading all workers now
-[2020-04-26 16:10:20 $19845.0]	INFO	Server is reloading all workers now
-[2020-04-26 16:10:54 $19845.0]	INFO	Server is reloading all workers now
-[2020-04-26 16:10:55 $19845.0]	INFO	Server is reloading all workers now
-[2020-04-26 16:11:11 $19845.0]	INFO	Server is reloading all workers now
-[2020-04-26 16:11:35 $19845.0]	INFO	Server is reloading all workers now
-[2020-04-26 16:11:44 $19845.0]	INFO	Server is reloading all workers now
-[2020-04-26 16:11:52 $19845.0]	INFO	Server is reloading all workers now
-[2020-04-26 16:11:59 $19845.0]	INFO	Server is reloading all workers now
-[2020-04-26 16:12:00 $19845.0]	INFO	Server is reloading all workers now
-[2020-04-26 16:12:22 $19845.0]	INFO	Server is reloading all workers now
-[2020-04-26 16:12:33 $19845.0]	INFO	Server is reloading all workers now
-[2020-04-26 16:12:35 $19845.0]	INFO	Server is reloading all workers now
-[2020-04-26 16:12:36 $19845.0]	INFO	Server is reloading all workers now
-[2020-04-26 16:13:56 $19845.0]	INFO	Server is reloading all workers now
-[2020-04-26 16:20:38 $19845.0]	INFO	Server is reloading all workers now
-[2020-04-26 16:21:01 $19845.0]	INFO	Server is reloading all workers now
-[2020-04-26 16:21:02 $19845.0]	INFO	Server is reloading all workers now
-[2020-04-26 16:21:10 $19845.0]	INFO	Server is reloading all workers now
-[2020-04-26 16:21:56 $19845.0]	INFO	Server is reloading all workers now
-[2020-04-26 16:22:03 $19845.0]	INFO	Server is reloading all workers now
-[2020-04-26 16:22:15 $19845.0]	INFO	Server is reloading all workers now
-[2020-04-26 16:22:16 $19845.0]	INFO	Server is reloading all workers now
-[2020-04-26 16:22:57 $19845.0]	INFO	Server is reloading all workers now
-[2020-04-26 16:24:36 $19845.0]	INFO	Server is reloading all workers now
-[2020-04-26 16:24:41 $19845.0]	INFO	Server is reloading all workers now
-[2020-04-26 16:42:21 $32364.0]	INFO	Server is reloading all workers now
-[2020-04-26 17:04:56 $32550.0]	INFO	Server is reloading all workers now
-[2020-04-26 17:35:49 $17346.0]	INFO	Server is reloading all workers now
-[2020-04-26 18:08:57 $18513.0]	INFO	Server is reloading all workers now
-[2020-04-26 18:08:58 $18513.0]	INFO	Server is reloading all workers now
-[2020-04-26 18:09:54 $18513.0]	INFO	Server is reloading all workers now
-[2020-04-26 18:10:25 $18513.0]	INFO	Server is reloading all workers now
-[2020-04-26 18:10:30 $18513.0]	INFO	Server is reloading all workers now
-[2020-04-26 18:10:47 $18513.0]	INFO	Server is reloading all workers now
-[2020-04-26 18:13:12 $18513.0]	INFO	Server is reloading all workers now
-[2020-04-26 18:13:50 $18513.0]	INFO	Server is reloading all workers now
-[2020-04-26 18:25:44 $18513.0]	INFO	Server is reloading all workers now
-[2020-04-26 18:25:59 $18513.0]	INFO	Server is reloading all workers now
-[2020-04-26 18:26:09 $18513.0]	INFO	Server is reloading all workers now
-[2020-04-26 18:27:00 $18513.0]	INFO	Server is reloading all workers now
-[2020-04-26 18:27:14 $18513.0]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
-[2020-04-26 18:27:14 #18512.1]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
-[2020-04-26 18:27:14 $18513.0]	WARNING	swManager_check_exit_status: worker#9[pid=18524] abnormal exit, status=0, signal=1
-[2020-04-26 18:27:14 $18513.0]	WARNING	swManager_check_exit_status: worker#10[pid=18525] abnormal exit, status=0, signal=1
-[2020-04-26 18:27:14 $18513.0]	WARNING	swManager_check_exit_status: worker#11[pid=18526] abnormal exit, status=0, signal=1
-[2020-04-26 18:27:14 $18513.0]	WARNING	swManager_check_exit_status: worker#12[pid=18527] abnormal exit, status=0, signal=1
-[2020-04-26 18:27:14 $18513.0]	WARNING	swManager_check_exit_status: worker#13[pid=18528] abnormal exit, status=0, signal=1
-[2020-04-26 18:27:14 $18513.0]	WARNING	swManager_check_exit_status: worker#14[pid=18529] abnormal exit, status=0, signal=1
-[2020-04-26 18:27:14 $18513.0]	WARNING	swManager_check_exit_status: worker#15[pid=18530] abnormal exit, status=0, signal=1
-[2020-04-26 18:27:14 $18513.0]	WARNING	swManager_check_exit_status: worker#16[pid=18531] abnormal exit, status=0, signal=1
-[2020-04-26 18:27:14 *18664.2]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
-[2020-04-26 18:27:14 *18669.7]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
-[2020-04-26 18:27:14 *18666.4]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
-[2020-04-26 18:27:14 *18667.5]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
-[2020-04-26 18:27:14 *18665.3]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
-[2020-04-26 18:27:14 *18663.1]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
-[2020-04-26 18:27:14 *18668.6]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
-[2020-04-26 18:27:14 *18662.0]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
-[2020-04-26 18:27:14 $18513.0]	WARNING	swManager_check_exit_status: worker#8[pid=18523] abnormal exit, status=0, signal=1
-[2020-04-27 10:15:35 $18513.0]	INFO	Server is reloading all workers now
-[2020-04-27 10:15:46 $18513.0]	INFO	Server is reloading all workers now
-[2020-04-27 10:16:30 #18512.1]	INFO	Server is shutdown now
-[2020-04-27 10:17:25 $21607.0]	INFO	Server is reloading all workers now
-[2020-04-27 11:03:37 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 11:03:38 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 11:06:15 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 11:09:13 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 11:09:48 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 11:10:19 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 11:10:24 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 11:11:11 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 11:11:40 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 11:11:45 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 11:11:48 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 11:11:57 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 11:12:02 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 11:12:34 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 11:20:46 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 11:20:47 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 11:21:24 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 11:21:30 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 11:24:40 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 11:25:17 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 11:25:27 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 11:28:13 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 11:28:17 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 11:28:18 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 11:28:22 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 11:31:04 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 11:37:59 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 11:38:42 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 11:39:03 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 11:39:04 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 11:39:16 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 11:39:18 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 11:39:19 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 11:39:31 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 11:40:14 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 11:40:25 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 11:40:36 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 11:40:38 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 11:40:39 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 11:40:45 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 11:40:53 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 11:41:24 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 11:43:36 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 11:44:07 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 11:47:04 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 11:56:41 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 11:57:00 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 11:57:11 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 11:57:12 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 11:57:24 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 11:57:26 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 11:58:48 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 11:58:49 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 11:58:54 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 11:59:38 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 11:59:39 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 11:59:44 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 12:04:55 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 12:57:36 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 13:05:24 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 13:06:18 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 13:06:22 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 13:06:23 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 13:06:27 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 13:07:30 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 13:11:49 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 13:11:58 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 13:12:47 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 13:14:33 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 13:16:47 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 13:17:04 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 13:18:43 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 13:18:44 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 13:19:05 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 13:20:07 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 13:20:40 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 13:20:42 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 13:22:35 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 13:22:36 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 13:22:50 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 13:23:22 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 13:26:41 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 13:38:16 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 13:42:12 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 13:42:34 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 13:43:00 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 13:43:01 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 13:43:43 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 13:46:06 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 13:46:07 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 13:47:40 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 13:48:47 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 13:48:58 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 13:48:59 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 13:52:49 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 13:57:06 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 13:59:11 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 14:03:50 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 14:03:51 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 14:03:55 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 14:05:28 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 14:09:28 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 14:09:58 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 14:11:18 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 14:25:15 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 14:25:16 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 14:37:20 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 14:37:41 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 14:37:42 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 14:38:29 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 14:38:57 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 14:39:27 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 14:40:29 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 14:40:38 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 14:40:59 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 14:41:00 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 14:44:46 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 14:44:55 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 14:45:22 $21803.0]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
-[2020-04-27 14:45:22 $21803.0]	WARNING	swManager_check_exit_status: worker#9[pid=21814] abnormal exit, status=0, signal=1
-[2020-04-27 14:45:22 $21803.0]	WARNING	swManager_check_exit_status: worker#10[pid=21815] abnormal exit, status=0, signal=1
-[2020-04-27 14:45:22 $21803.0]	WARNING	swManager_check_exit_status: worker#11[pid=21816] abnormal exit, status=0, signal=1
-[2020-04-27 14:45:22 $21803.0]	WARNING	swManager_check_exit_status: worker#13[pid=21818] abnormal exit, status=0, signal=1
-[2020-04-27 14:45:22 $21803.0]	WARNING	swManager_check_exit_status: worker#14[pid=21819] abnormal exit, status=0, signal=1
-[2020-04-27 14:45:22 $21803.0]	WARNING	swManager_check_exit_status: worker#15[pid=21820] abnormal exit, status=0, signal=1
-[2020-04-27 14:45:22 $21803.0]	WARNING	swManager_check_exit_status: worker#16[pid=21821] abnormal exit, status=0, signal=1
-[2020-04-27 14:45:22 #21802.1]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
-[2020-04-27 14:45:22 *23390.2]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
-[2020-04-27 14:45:22 *23388.7]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
-[2020-04-27 14:45:22 *23389.3]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
-[2020-04-27 14:45:22 *23392.5]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
-[2020-04-27 14:45:22 *23387.4]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
-[2020-04-27 14:45:22 *23394.0]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
-[2020-04-27 14:45:22 *23391.1]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
-[2020-04-27 14:45:22 *23393.6]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
-[2020-04-27 14:45:22 $21803.0]	WARNING	swManager_check_exit_status: worker#12[pid=21817] abnormal exit, status=0, signal=1
-[2020-04-27 14:45:22 $21803.0]	WARNING	swManager_check_exit_status: worker#8[pid=21813] abnormal exit, status=0, signal=1
-[2020-04-27 14:45:31 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 14:46:33 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 14:47:32 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 14:47:38 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 14:47:39 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 14:48:00 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 14:49:23 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 14:50:23 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 14:50:52 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 14:53:23 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 14:53:47 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 14:53:48 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 14:54:45 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 14:56:44 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 14:56:46 $21803.0]	INFO	Server is reloading all workers now
-[2020-04-27 14:59:07 #21802.1]	INFO	Server is shutdown now
-[2020-04-27 15:00:23 $23829.0]	INFO	Server is reloading all workers now
-[2020-04-27 15:18:19 $23829.0]	INFO	Server is reloading all workers now
-[2020-04-27 15:19:06 $23829.0]	INFO	Server is reloading all workers now
-[2020-04-27 15:19:15 $23829.0]	INFO	Server is reloading all workers now
-[2020-04-27 15:19:16 $23829.0]	INFO	Server is reloading all workers now
-[2020-04-27 15:21:30 $23829.0]	INFO	Server is reloading all workers now
-[2020-04-27 15:23:46 $23829.0]	INFO	Server is reloading all workers now
-[2020-04-27 15:23:50 $23829.0]	INFO	Server is reloading all workers now
-[2020-04-27 16:33:17 $23829.0]	INFO	Server is reloading all workers now
-[2020-04-27 16:33:34 $23829.0]	INFO	Server is reloading all workers now
-[2020-04-27 17:04:10 $24299.0]	INFO	Server is reloading all workers now
-[2020-04-27 17:06:40 $24299.0]	INFO	Server is reloading all workers now
-[2020-04-27 17:58:45 $24722.0]	INFO	Server is reloading all workers now
-[2020-04-27 17:59:21 $24722.0]	INFO	Server is reloading all workers now
-[2020-04-27 17:59:36 $24722.0]	INFO	Server is reloading all workers now
-[2020-04-27 18:00:08 $24722.0]	INFO	Server is reloading all workers now
-[2020-04-27 18:00:26 $24722.0]	INFO	Server is reloading all workers now
-[2020-04-27 18:01:54 $24722.0]	INFO	Server is reloading all workers now
-[2020-04-27 18:05:50 $24722.0]	INFO	Server is reloading all workers now
-[2020-04-27 18:06:46 $24722.0]	INFO	Server is reloading all workers now
-[2020-04-27 18:07:57 $24722.0]	INFO	Server is reloading all workers now
-[2020-04-27 18:10:00 $24722.0]	INFO	Server is reloading all workers now
-[2020-04-27 18:18:05 $24722.0]	INFO	Server is reloading all workers now
-[2020-04-27 18:23:23 $24722.0]	INFO	Server is reloading all workers now
-[2020-04-27 18:23:58 $24722.0]	INFO	Server is reloading all workers now
-[2020-04-27 18:25:35 $24722.0]	INFO	Server is reloading all workers now
-[2020-04-27 18:31:25 $24722.0]	INFO	Server is reloading all workers now
-[2020-04-27 18:31:32 $24722.0]	INFO	Server is reloading all workers now
-[2020-04-27 18:31:33 $24722.0]	INFO	Server is reloading all workers now
-[2020-04-27 18:31:56 $24722.0]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
-[2020-04-27 18:31:56 #24721.1]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
-[2020-04-27 18:31:56 *24954.3]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
-[2020-04-27 18:31:56 *24960.0]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
-[2020-04-27 18:31:56 *24958.7]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
-[2020-04-27 18:31:56 *24953.2]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
-[2020-04-27 18:31:56 *24955.4]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
-[2020-04-27 18:31:56 *24957.6]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
-[2020-04-27 18:31:56 *24959.1]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
-[2020-04-27 18:31:56 *24956.5]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
-[2020-04-27 18:31:56 $24722.0]	WARNING	swManager_check_exit_status: worker#9[pid=24733] abnormal exit, status=0, signal=1
-[2020-04-27 18:31:56 $24722.0]	WARNING	swManager_check_exit_status: worker#10[pid=24734] abnormal exit, status=0, signal=1
-[2020-04-27 18:31:56 $24722.0]	WARNING	swManager_check_exit_status: worker#11[pid=24735] abnormal exit, status=0, signal=1
-[2020-04-27 18:31:56 $24722.0]	WARNING	swManager_check_exit_status: worker#12[pid=24736] abnormal exit, status=0, signal=1
-[2020-04-27 18:31:56 $24722.0]	WARNING	swManager_check_exit_status: worker#13[pid=24737] abnormal exit, status=0, signal=1
-[2020-04-27 18:31:56 $24722.0]	WARNING	swManager_check_exit_status: worker#14[pid=24738] abnormal exit, status=0, signal=1
-[2020-04-27 18:31:56 $24722.0]	WARNING	swManager_check_exit_status: worker#15[pid=24739] abnormal exit, status=0, signal=1
-[2020-04-27 18:31:56 $24722.0]	WARNING	swManager_check_exit_status: worker#16[pid=24740] abnormal exit, status=0, signal=1
-[2020-04-27 18:31:56 $24722.0]	WARNING	swManager_check_exit_status: worker#17[pid=24741] abnormal exit, status=0, signal=1
-[2020-04-27 18:31:56 $24722.0]	WARNING	swManager_check_exit_status: worker#18[pid=24742] abnormal exit, status=0, signal=1
-[2020-04-27 18:31:56 $24722.0]	WARNING	swManager_check_exit_status: worker#19[pid=24743] abnormal exit, status=0, signal=1
-[2020-04-27 18:31:56 $24722.0]	WARNING	swManager_check_exit_status: worker#8[pid=24732] abnormal exit, status=0, signal=1
-[2020-04-28 09:45:44 $24722.0]	INFO	Server is reloading all workers now
-[2020-04-28 09:53:51 $24722.0]	INFO	Server is reloading all workers now
-[2020-04-28 09:56:45 $24722.0]	INFO	Server is reloading all workers now
-[2020-04-28 10:09:13 $24722.0]	INFO	Server is reloading all workers now
-[2020-04-28 10:18:00 $24722.0]	INFO	Server is reloading all workers now
-[2020-04-28 10:18:10 $24722.0]	INFO	Server is reloading all workers now
-[2020-04-28 10:18:30 $24722.0]	INFO	Server is reloading all workers now
-[2020-04-28 10:18:34 $24722.0]	INFO	Server is reloading all workers now
-[2020-04-28 10:18:41 $24722.0]	INFO	Server is reloading all workers now
-[2020-04-28 10:20:05 $24722.0]	INFO	Server is reloading all workers now
-[2020-04-28 10:20:06 $24722.0]	INFO	Server is reloading all workers now
-[2020-04-28 10:20:36 $24722.0]	INFO	Server is reloading all workers now
-[2020-04-28 10:28:34 $24722.0]	INFO	Server is reloading all workers now
-[2020-04-28 10:28:56 $24722.0]	INFO	Server is reloading all workers now
-[2020-04-28 10:30:24 $24722.0]	INFO	Server is reloading all workers now
-[2020-04-28 10:30:31 $24722.0]	INFO	Server is reloading all workers now
-[2020-04-28 10:30:32 $24722.0]	INFO	Server is reloading all workers now
-[2020-04-28 10:31:45 $24722.0]	INFO	Server is reloading all workers now
-[2020-04-28 10:32:50 $24722.0]	INFO	Server is reloading all workers now
-[2020-04-28 10:33:59 $24722.0]	INFO	Server is reloading all workers now
-[2020-04-28 10:35:12 $24722.0]	INFO	Server is reloading all workers now
-[2020-04-28 10:35:13 $24722.0]	INFO	Server is reloading all workers now
-[2020-04-28 10:35:36 $24722.0]	INFO	Server is reloading all workers now
-[2020-04-28 10:35:49 $24722.0]	INFO	Server is reloading all workers now
-[2020-04-28 10:36:20 $24722.0]	INFO	Server is reloading all workers now
-[2020-04-28 10:36:21 $24722.0]	INFO	Server is reloading all workers now
-[2020-04-28 10:38:46 $24722.0]	INFO	Server is reloading all workers now
-[2020-04-28 10:39:24 $24722.0]	INFO	Server is reloading all workers now
-[2020-04-28 10:41:30 $24722.0]	INFO	Server is reloading all workers now
-[2020-04-28 10:41:35 $24722.0]	INFO	Server is reloading all workers now
-[2020-04-28 10:44:24 $24722.0]	INFO	Server is reloading all workers now
-[2020-04-28 10:44:34 $24722.0]	INFO	Server is reloading all workers now
-[2020-04-28 10:44:49 $24722.0]	INFO	Server is reloading all workers now
-[2020-04-28 10:49:04 $24722.0]	INFO	Server is reloading all workers now
-[2020-04-28 10:51:18 $24722.0]	INFO	Server is reloading all workers now
-[2020-04-28 10:51:19 $24722.0]	INFO	Server is reloading all workers now
-[2020-04-28 10:52:11 $24722.0]	INFO	Server is reloading all workers now
-[2020-04-28 10:52:17 $24722.0]	INFO	Server is reloading all workers now
-[2020-04-28 10:52:35 $24722.0]	INFO	Server is reloading all workers now
-[2020-04-28 10:52:47 $24722.0]	INFO	Server is reloading all workers now
-[2020-04-28 10:53:09 $24722.0]	INFO	Server is reloading all workers now
-[2020-04-28 10:53:26 $24722.0]	INFO	Server is reloading all workers now
-[2020-04-28 10:55:02 $24722.0]	INFO	Server is reloading all workers now
-[2020-04-28 11:14:31 $24722.0]	INFO	Server is reloading all workers now
-[2020-04-28 11:17:01 $24722.0]	INFO	Server is reloading all workers now
-[2020-04-28 11:17:02 $24722.0]	INFO	Server is reloading all workers now
-[2020-04-28 11:18:58 $24722.0]	INFO	Server is reloading all workers now
-[2020-04-28 11:19:16 $24722.0]	INFO	Server is reloading all workers now
-[2020-04-28 11:19:31 $24722.0]	INFO	Server is reloading all workers now
-[2020-04-28 11:21:02 #24721.1]	INFO	Server is shutdown now
-[2020-04-28 11:21:22 *28175.0]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: require_once(): Failed opening required '../../Vendor/ip/ip.php' (include_path='.:/www/server/php/73/lib/php') in /www/Catqcs/App/HttpController/Home/Union.php on line 26
-[2020-04-28 11:21:22 $28173.0]	WARNING	swManager_check_exit_status: worker#0[pid=28175] abnormal exit, status=255, signal=0
+FileScanner hot reload initialize at Linux in PID 26240 ...
+HOT_RELOAD: reloaded at 1588822581
+[2020-05-07 11:36:21 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588822599
+[2020-05-07 11:36:39 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588822601
+[2020-05-07 11:36:41 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588822678
+[2020-05-07 11:37:58 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588822689
+[2020-05-07 11:38:09 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588822753
+[2020-05-07 11:39:13 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588822764
+[2020-05-07 11:39:24 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588822849
+[2020-05-07 11:40:49 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588822853
+[2020-05-07 11:40:53 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588822894
+[2020-05-07 11:41:34 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588822904
+[2020-05-07 11:41:44 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588829502
+[2020-05-07 13:31:42 $26227.0]	INFO	Server is reloading all workers now
+[2020-05-07 13:31:44][debug][warning]:[array_column() expects parameter 1 to be array, integer given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:31:44][debug][warning]:[in_array() expects parameter 2 to be array, null given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:31:44][debug][warning]:[array_column() expects parameter 1 to be array, integer given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:31:44][debug][warning]:[in_array() expects parameter 2 to be array, null given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:31:44][debug][warning]:[array_column() expects parameter 1 to be array, null given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:31:44][debug][warning]:[in_array() expects parameter 2 to be array, null given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:31:44][debug][warning]:[array_column() expects parameter 1 to be array, integer given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:31:44][debug][warning]:[in_array() expects parameter 2 to be array, null given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:31:44][debug][warning]:[array_column() expects parameter 1 to be array, null given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:31:44][debug][warning]:[in_array() expects parameter 2 to be array, null given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:31:44][debug][warning]:[array_column() expects parameter 1 to be array, null given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:31:44][debug][warning]:[in_array() expects parameter 2 to be array, null given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:31:44][debug][warning]:[array_column() expects parameter 1 to be array, null given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:31:44][debug][warning]:[in_array() expects parameter 2 to be array, null given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:31:44][debug][warning]:[array_column() expects parameter 1 to be array, null given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:31:44][debug][warning]:[in_array() expects parameter 2 to be array, null given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:31:44][debug][warning]:[array_column() expects parameter 1 to be array, null given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:31:44][debug][warning]:[in_array() expects parameter 2 to be array, null given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:31:44][debug][warning]:[array_column() expects parameter 1 to be array, integer given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:31:44][debug][warning]:[in_array() expects parameter 2 to be array, null given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:31:44][debug][warning]:[array_column() expects parameter 1 to be array, null given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:31:44][debug][warning]:[in_array() expects parameter 2 to be array, null given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:31:44][debug][warning]:[array_column() expects parameter 1 to be array, integer given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:31:44][debug][warning]:[in_array() expects parameter 2 to be array, null given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:31:44][debug][warning]:[array_column() expects parameter 1 to be array, null given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:31:44][debug][warning]:[in_array() expects parameter 2 to be array, null given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:31:44][debug][warning]:[array_column() expects parameter 1 to be array, integer given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:31:44][debug][warning]:[in_array() expects parameter 2 to be array, null given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:31:44][debug][warning]:[array_column() expects parameter 1 to be array, integer given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:31:44][debug][warning]:[in_array() expects parameter 2 to be array, null given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:31:44][debug][warning]:[array_column() expects parameter 1 to be array, null given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:31:44][debug][warning]:[in_array() expects parameter 2 to be array, null given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:31:44][debug][warning]:[array_column() expects parameter 1 to be array, float given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:31:44][debug][warning]:[in_array() expects parameter 2 to be array, null given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:31:44][debug][warning]:[array_column() expects parameter 1 to be array, integer given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:31:44][debug][warning]:[in_array() expects parameter 2 to be array, null given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:31:44][debug][warning]:[array_column() expects parameter 1 to be array, integer given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:31:44][debug][warning]:[in_array() expects parameter 2 to be array, null given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:31:44][debug][notice]:[Undefined variable: sourcewfwatch at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:57]
+HOT_RELOAD: reloaded at 1588829506
+[2020-05-07 13:31:46 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588829538
+[2020-05-07 13:32:18 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588829551
+[2020-05-07 13:32:31 $26227.0]	INFO	Server is reloading all workers now
+[2020-05-07 13:33:58][debug][warning]:[array_column() expects parameter 1 to be array, integer given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:33:58][debug][warning]:[in_array() expects parameter 2 to be array, null given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:33:58][debug][warning]:[array_column() expects parameter 1 to be array, integer given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:33:58][debug][warning]:[in_array() expects parameter 2 to be array, null given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:33:58][debug][warning]:[array_column() expects parameter 1 to be array, null given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:33:58][debug][warning]:[in_array() expects parameter 2 to be array, null given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:33:58][debug][warning]:[array_column() expects parameter 1 to be array, integer given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:33:58][debug][warning]:[in_array() expects parameter 2 to be array, null given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:33:58][debug][warning]:[array_column() expects parameter 1 to be array, null given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:33:58][debug][warning]:[in_array() expects parameter 2 to be array, null given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:33:58][debug][warning]:[array_column() expects parameter 1 to be array, null given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:33:58][debug][warning]:[in_array() expects parameter 2 to be array, null given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:33:58][debug][warning]:[array_column() expects parameter 1 to be array, null given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:33:58][debug][warning]:[in_array() expects parameter 2 to be array, null given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:33:58][debug][warning]:[array_column() expects parameter 1 to be array, null given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:33:58][debug][warning]:[in_array() expects parameter 2 to be array, null given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:33:58][debug][warning]:[array_column() expects parameter 1 to be array, null given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:33:58][debug][warning]:[in_array() expects parameter 2 to be array, null given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:33:58][debug][warning]:[array_column() expects parameter 1 to be array, integer given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:33:58][debug][warning]:[in_array() expects parameter 2 to be array, null given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:33:58][debug][warning]:[array_column() expects parameter 1 to be array, null given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:33:58][debug][warning]:[in_array() expects parameter 2 to be array, null given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:33:58][debug][warning]:[array_column() expects parameter 1 to be array, integer given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:33:58][debug][warning]:[in_array() expects parameter 2 to be array, null given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:33:58][debug][warning]:[array_column() expects parameter 1 to be array, null given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:33:58][debug][warning]:[in_array() expects parameter 2 to be array, null given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:33:58][debug][warning]:[array_column() expects parameter 1 to be array, integer given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:33:58][debug][warning]:[in_array() expects parameter 2 to be array, null given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:33:58][debug][warning]:[array_column() expects parameter 1 to be array, integer given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:33:58][debug][warning]:[in_array() expects parameter 2 to be array, null given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:33:58][debug][warning]:[array_column() expects parameter 1 to be array, null given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:33:58][debug][warning]:[in_array() expects parameter 2 to be array, null given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:33:58][debug][warning]:[array_column() expects parameter 1 to be array, float given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:33:58][debug][warning]:[in_array() expects parameter 2 to be array, null given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:33:58][debug][warning]:[array_column() expects parameter 1 to be array, integer given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:33:58][debug][warning]:[in_array() expects parameter 2 to be array, null given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:33:58][debug][warning]:[array_column() expects parameter 1 to be array, integer given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:33:58][debug][warning]:[in_array() expects parameter 2 to be array, null given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:33:58][debug][notice]:[Undefined variable: sourcewfwatch at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:57]
+HOT_RELOAD: reloaded at 1588829647
+[2020-05-07 13:34:07 $26227.0]	INFO	Server is reloading all workers now
+[2020-05-07 13:34:11][debug][warning]:[array_column() expects parameter 1 to be array, integer given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:34:11][debug][warning]:[in_array() expects parameter 2 to be array, null given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:34:11][debug][warning]:[array_column() expects parameter 1 to be array, integer given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:34:11][debug][warning]:[in_array() expects parameter 2 to be array, null given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:34:11][debug][warning]:[array_column() expects parameter 1 to be array, null given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:34:11][debug][warning]:[in_array() expects parameter 2 to be array, null given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:34:11][debug][warning]:[array_column() expects parameter 1 to be array, integer given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:34:11][debug][warning]:[in_array() expects parameter 2 to be array, null given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:34:11][debug][warning]:[array_column() expects parameter 1 to be array, null given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:34:11][debug][warning]:[in_array() expects parameter 2 to be array, null given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:34:11][debug][warning]:[array_column() expects parameter 1 to be array, null given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:34:11][debug][warning]:[in_array() expects parameter 2 to be array, null given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:34:11][debug][warning]:[array_column() expects parameter 1 to be array, null given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:34:11][debug][warning]:[in_array() expects parameter 2 to be array, null given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:34:11][debug][warning]:[array_column() expects parameter 1 to be array, null given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:34:11][debug][warning]:[in_array() expects parameter 2 to be array, null given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:34:11][debug][warning]:[array_column() expects parameter 1 to be array, null given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:34:11][debug][warning]:[in_array() expects parameter 2 to be array, null given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:34:11][debug][warning]:[array_column() expects parameter 1 to be array, integer given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:34:11][debug][warning]:[in_array() expects parameter 2 to be array, null given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:34:11][debug][warning]:[array_column() expects parameter 1 to be array, null given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:34:11][debug][warning]:[in_array() expects parameter 2 to be array, null given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:34:11][debug][warning]:[array_column() expects parameter 1 to be array, integer given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:34:11][debug][warning]:[in_array() expects parameter 2 to be array, null given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:34:11][debug][warning]:[array_column() expects parameter 1 to be array, null given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:34:11][debug][warning]:[in_array() expects parameter 2 to be array, null given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:34:11][debug][warning]:[array_column() expects parameter 1 to be array, integer given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:34:11][debug][warning]:[in_array() expects parameter 2 to be array, null given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:34:11][debug][warning]:[array_column() expects parameter 1 to be array, integer given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:34:11][debug][warning]:[in_array() expects parameter 2 to be array, null given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:34:11][debug][warning]:[array_column() expects parameter 1 to be array, null given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:34:11][debug][warning]:[in_array() expects parameter 2 to be array, null given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:34:11][debug][warning]:[array_column() expects parameter 1 to be array, float given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:34:11][debug][warning]:[in_array() expects parameter 2 to be array, null given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:34:11][debug][warning]:[array_column() expects parameter 1 to be array, integer given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:34:11][debug][warning]:[in_array() expects parameter 2 to be array, null given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:34:11][debug][warning]:[array_column() expects parameter 1 to be array, integer given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:34:11][debug][warning]:[in_array() expects parameter 2 to be array, null given at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:52]
+[2020-05-07 13:34:11][debug][notice]:[Undefined variable: sourcewfwatch at file:/usr/local/swoole/easySwoole/App/Models/Logic/QcLogic.php line:57]
+[2020-05-07 13:34:11][debug][notice]:[Undefined index: is_checkidfa at file:/usr/local/swoole/easySwoole/App/HttpController/Home/Union.php line:60]
+[2020-05-07 13:34:11][debug][error]:[Call to a member function defer() on null]
+HOT_RELOAD: reloaded at 1588829651
+[2020-05-07 13:34:11 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588829656
+[2020-05-07 13:34:16 $26227.0]	INFO	Server is reloading all workers now
+[2020-05-07 13:35:12][debug][notice]:[Undefined index: qcdbconfigcom.mcjhwy.ir45 at file:/usr/local/swoole/easySwoole/vendor/easyswoole/fast-cache/src/CacheProcess.php line:137]
+HOT_RELOAD: reloaded at 1588829960
+[2020-05-07 13:39:20 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588829980
+[2020-05-07 13:39:40 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588829994
+[2020-05-07 13:39:54 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588830014
+[2020-05-07 13:40:14 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588830033
+[2020-05-07 13:40:33 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588830037
+[2020-05-07 13:40:37 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588830050
+[2020-05-07 13:40:50 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588830055
+[2020-05-07 13:40:55 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588830059
+[2020-05-07 13:40:59 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588830733
+[2020-05-07 13:52:13 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588830738
+[2020-05-07 13:52:18 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588830752
+[2020-05-07 13:52:32 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588830768
+[2020-05-07 13:52:48 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588830788
+[2020-05-07 13:53:08 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588830800
+[2020-05-07 13:53:20 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588830812
+[2020-05-07 13:53:32 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588830814
+[2020-05-07 13:53:34 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588830828
+[2020-05-07 13:53:48 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588830837
+[2020-05-07 13:53:57 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588830841
+[2020-05-07 13:54:01 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588830858
+[2020-05-07 13:54:18 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588830876
+[2020-05-07 13:54:36 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588830898
+[2020-05-07 13:54:58 $26227.0]	INFO	Server is reloading all workers now
+[2020-05-07 13:55:00][debug][warning]:[array_column() expects parameter 1 to be array, string given at file:/usr/local/swoole/easySwoole/App/HttpController/Home/Union.php line:55]
+HOT_RELOAD: reloaded at 1588830902
+[2020-05-07 13:55:02 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588830940
+[2020-05-07 13:55:40 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588830952
+[2020-05-07 13:55:52 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588830956
+[2020-05-07 13:55:56 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588832121
+[2020-05-07 14:15:21 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588832126
+[2020-05-07 14:15:26 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588832136
+[2020-05-07 14:15:36 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588832141
+[2020-05-07 14:15:41 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588832159
+[2020-05-07 14:15:59 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588832170
+[2020-05-07 14:16:10 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588832180
+[2020-05-07 14:16:20 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588832195
+[2020-05-07 14:16:35 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588832216
+[2020-05-07 14:16:56 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588832220
+[2020-05-07 14:17:00 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588832244
+[2020-05-07 14:17:24 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588832246
+[2020-05-07 14:17:26 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588832254
+[2020-05-07 14:17:34 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588832260
+[2020-05-07 14:17:40 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588832292
+[2020-05-07 14:18:12 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588832296
+[2020-05-07 14:18:16 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588832315
+[2020-05-07 14:18:35 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588832317
+[2020-05-07 14:18:37 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588832326
+[2020-05-07 14:18:46 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588832338
+[2020-05-07 14:18:58 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588832344
+[2020-05-07 14:19:04 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588832348
+[2020-05-07 14:19:08 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588832349
+[2020-05-07 14:19:09 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588832353
+[2020-05-07 14:19:13 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588832389
+[2020-05-07 14:19:49 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588832480
+[2020-05-07 14:21:20 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588832484
+[2020-05-07 14:21:24 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588832690
+[2020-05-07 14:24:50 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588832693
+[2020-05-07 14:24:53 $26227.0]	INFO	Server is reloading all workers now
+[2020-05-07 14:24:55][debug][error]:[20200507142405no_qudao:xinzhuan,id:13863]
+HOT_RELOAD: reloaded at 1588832697
+[2020-05-07 14:24:57 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588832774
+[2020-05-07 14:26:14 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588832777
+[2020-05-07 14:26:17 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588832782
+[2020-05-07 14:26:22 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588832784
+[2020-05-07 14:26:24 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588833631
+[2020-05-07 14:40:31 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588833636
+[2020-05-07 14:40:36 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588833659
+[2020-05-07 14:40:59 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588833665
+[2020-05-07 14:41:05 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588833871
+[2020-05-07 14:44:31 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588833885
+[2020-05-07 14:44:45 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588833890
+[2020-05-07 14:44:50 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588833901
+[2020-05-07 14:45:01 $26227.0]	INFO	Server is reloading all workers now
+[2020-05-07 14:45:15][error][error]:[20200507144505no_qudao:xinzhuan,id:13863]
+HOT_RELOAD: reloaded at 1588833946
+[2020-05-07 14:45:46 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588833955
+[2020-05-07 14:45:55 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588833965
+[2020-05-07 14:46:05 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588833969
+[2020-05-07 14:46:09 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588833978
+[2020-05-07 14:46:18 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588833981
+[2020-05-07 14:46:21 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588833997
+[2020-05-07 14:46:37 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588834000
+[2020-05-07 14:46:40 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588834149
+[2020-05-07 14:49:09 $26227.0]	INFO	Server is reloading all workers now
+[2020-05-07 14:49:21][debug][notice]:[Undefined index: is_checkidfa at file:/usr/local/swoole/easySwoole/App/HttpController/Home/Union.php line:60]
+[2020-05-07 14:49:21][debug][error]:[Call to a member function defer() on null]
+HOT_RELOAD: reloaded at 1588834244
+[2020-05-07 14:50:44 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588834274
+[2020-05-07 14:51:14 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588834280
+[2020-05-07 14:51:20 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588834287
+[2020-05-07 14:51:27 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588834292
+[2020-05-07 14:51:32 $26227.0]	INFO	Server is reloading all workers now
+[2020-05-07 14:51:41][debug][error]:[Call to a member function defer() on null]
+HOT_RELOAD: reloaded at 1588834923
+[2020-05-07 15:02:03 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588834942
+[2020-05-07 15:02:22 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588834971
+[2020-05-07 15:02:51 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588834975
+[2020-05-07 15:02:55 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588834977
+[2020-05-07 15:02:57 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588834982
+[2020-05-07 15:03:02 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588834988
+[2020-05-07 15:03:08 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588834999
+[2020-05-07 15:03:19 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588835014
+[2020-05-07 15:03:34 $26227.0]	INFO	Server is reloading all workers now
+[2020-05-07 15:03:42][debug][error]:[Call to a member function defer() on null]
+HOT_RELOAD: reloaded at 1588835056
+[2020-05-07 15:04:16 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588835068
+[2020-05-07 15:04:28 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588835079
+[2020-05-07 15:04:39 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588835125
+[2020-05-07 15:05:25 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588835129
+[2020-05-07 15:05:29 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588835138
+[2020-05-07 15:05:38 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588835146
+[2020-05-07 15:05:46 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588835151
+[2020-05-07 15:05:51 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588835152
+[2020-05-07 15:05:52 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588835167
+[2020-05-07 15:06:07 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588835198
+[2020-05-07 15:06:38 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588835216
+[2020-05-07 15:06:56 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588835219
+[2020-05-07 15:06:59 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588835225
+[2020-05-07 15:07:05 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588835283
+[2020-05-07 15:08:03 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588835294
+[2020-05-07 15:08:14 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588835306
+[2020-05-07 15:08:26 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588835310
+[2020-05-07 15:08:30 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588835314
+[2020-05-07 15:08:34 $26227.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588835333
+[2020-05-07 15:08:53 $26227.0]	INFO	Server is reloading all workers now
+[2020-05-07 15:15:01 #26226.4]	INFO	Server is shutdown now
+FileScanner hot reload initialize at Linux in PID 2209 ...
+[2020-05-07 15:15:30][debug][error]:[Call to a member function defer() on null]
+HOT_RELOAD: reloaded at 1588835767
+[2020-05-07 15:16:07 $2195.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588835772
+[2020-05-07 15:16:12 $2195.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588835779
+[2020-05-07 15:16:19 $2195.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588835790
+[2020-05-07 15:16:30 $2195.0]	INFO	Server is reloading all workers now
+[2020-05-07 15:16:31][debug][notice]:[Undefined index: qcdbconfigcom.mcjhwy.ir45 at file:/usr/local/swoole/easySwoole/vendor/easyswoole/fast-cache/src/CacheProcess.php line:137]
+HOT_RELOAD: reloaded at 1588835823
+[2020-05-07 15:17:03 $2195.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588835829
+[2020-05-07 15:17:09 $2195.0]	INFO	Server is reloading all workers now
+FileScanner hot reload initialize at Linux in PID 3074 ...
+[2020-05-07 15:18:25][debug][notice]:[Undefined index: qcdbconfigcom.mcjhwy.ir45 at file:/usr/local/swoole/easySwoole/vendor/easyswoole/fast-cache/src/CacheProcess.php line:137]
+HOT_RELOAD: reloaded at 1588836044
+[2020-05-07 15:20:44 $3061.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588836054
+[2020-05-07 15:20:54 $3061.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588836068
+[2020-05-07 15:21:08 $3061.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588836093
+[2020-05-07 15:21:33 $3061.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588836097
+[2020-05-07 15:21:37 $3061.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588836119
+[2020-05-07 15:21:59 $3061.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588836125
+[2020-05-07 15:22:05 $3061.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588836146
+[2020-05-07 15:22:26 $3061.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588836150
+[2020-05-07 15:22:30 $3061.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588836410
+[2020-05-07 15:26:50 $3061.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588836418
+[2020-05-07 15:26:58 $3061.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588836421
+[2020-05-07 15:27:01 $3061.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588836425
+[2020-05-07 15:27:05 $3061.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588836531
+[2020-05-07 15:28:51 $3061.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588836537
+[2020-05-07 15:28:57 $3061.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588836547
+[2020-05-07 15:29:07 $3061.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588836565
+[2020-05-07 15:29:25 $3061.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588836580
+[2020-05-07 15:29:40 $3061.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588836584
+[2020-05-07 15:29:44 $3061.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588836590
+[2020-05-07 15:29:50 $3061.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588836596
+[2020-05-07 15:29:56 $3061.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588836603
+[2020-05-07 15:30:03 $3061.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588836784
+[2020-05-07 15:33:04 $3061.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588836804
+[2020-05-07 15:33:24 $3061.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588836808
+[2020-05-07 15:33:28 $3061.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588836817
+[2020-05-07 15:33:37 $3061.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588836845
+[2020-05-07 15:34:05 $3061.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588836849
+[2020-05-07 15:34:09 $3061.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588838332
+[2020-05-07 15:58:52 $3061.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588838353
+[2020-05-07 15:59:13 $3061.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588838357
+[2020-05-07 15:59:17 $3061.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588838589
+[2020-05-07 16:03:09 $3061.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588838604
+[2020-05-07 16:03:24 $3061.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588838727
+[2020-05-07 16:05:27 $3061.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588838734
+[2020-05-07 16:05:34 $3061.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588838752
+[2020-05-07 16:05:52 $3061.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588838761
+[2020-05-07 16:06:01 $3061.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588839212
+[2020-05-07 16:13:32 $3061.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588839242
+[2020-05-07 16:14:02 $3061.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588839246
+[2020-05-07 16:14:06 $3061.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588839253
+[2020-05-07 16:14:13 $3061.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588839254
+[2020-05-07 16:14:14 $3061.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588839258
+[2020-05-07 16:14:18 $3061.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588839259
+[2020-05-07 16:14:19 $3061.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588839265
+[2020-05-07 16:14:25 $3061.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588839281
+[2020-05-07 16:14:41 $3061.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588839289
+[2020-05-07 16:14:49 $3061.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588839305
+[2020-05-07 16:15:05 $3061.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588839309
+[2020-05-07 16:15:09 $3061.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588839323
+[2020-05-07 16:15:23 $3061.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588839341
+[2020-05-07 16:15:41 $3061.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588839345
+[2020-05-07 16:15:45 $3061.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588839377
+[2020-05-07 16:16:17 $3061.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588839403
+[2020-05-07 16:16:43 $3061.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588839407
+[2020-05-07 16:16:47 $3061.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588839413
+[2020-05-07 16:16:53 $3061.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588839418
+[2020-05-07 16:16:58 $3061.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588839426
+[2020-05-07 16:17:06 $3061.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588839435
+[2020-05-07 16:17:15 $3061.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588839439
+[2020-05-07 16:17:19 $3061.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588839447
+[2020-05-07 16:17:27 $3061.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588839448
+[2020-05-07 16:17:28 $3061.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588839452
+[2020-05-07 16:17:32 $3061.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588839470
+[2020-05-07 16:17:50 $3061.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588839491
+[2020-05-07 16:18:11 $3061.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588839493
+[2020-05-07 16:18:13 $3061.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588839497
+[2020-05-07 16:18:17 $3061.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588839508
+[2020-05-07 16:18:28 $3061.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588839525
+[2020-05-07 16:18:45 $3061.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588839531
+[2020-05-07 16:18:51 $3061.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588839716
+[2020-05-07 16:21:56 $3061.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588839809
+[2020-05-07 16:23:29 $3061.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588839819
+[2020-05-07 16:23:39 $3061.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588839825
+[2020-05-07 16:23:45 $3061.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588839830
+[2020-05-07 16:23:50 $3061.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588839836
+[2020-05-07 16:23:56 $3061.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588839876
+[2020-05-07 16:24:36 $3061.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588839880
+[2020-05-07 16:24:40 $3061.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588839996
+[2020-05-07 16:26:36 $3061.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588839998
+[2020-05-07 16:26:38 $3061.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588840002
+[2020-05-07 16:26:42 $3061.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588840073
+[2020-05-07 16:27:53 $3061.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588840076
+[2020-05-07 16:27:56 $3061.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588840096
+[2020-05-07 16:28:16 $3061.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588840108
+[2020-05-07 16:28:28 $3061.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588840112
+[2020-05-07 16:28:32 $3061.0]	INFO	Server is reloading all workers now
+HOT_RELOAD: reloaded at 1588840132
+[2020-05-07 16:28:52 $3061.0]	INFO	Server is reloading all workers now
