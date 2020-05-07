@@ -1,0 +1,129 @@
+[2020-04-24 11:02:21][debug][error] : [Uncaught Swoole\Exception: failed to listen server port[0.0.0.0:9501], Error: Address already in use[98] in /www/Catqcs/vendor/easyswoole/easyswoole/src/ServerManager.php:59
+Stack trace:
+#0 /www/Catqcs/vendor/easyswoole/easyswoole/src/ServerManager.php(59): Swoole\Server->__construct('0.0.0.0', 9501, 2, 1)
+#1 /www/Catqcs/vendor/easyswoole/easyswoole/src/Core.php(127): EasySwoole\EasySwoole\ServerManager->createSwooleServer(9501, 2, '0.0.0.0', Array, 2, 1)
+#2 /www/Catqcs/vendor/easyswoole/easyswoole/src/Command/DefaultCommand/Start.php(42): EasySwoole\EasySwoole\Core->createServer()
+#3 /www/Catqcs/vendor/easyswoole/easyswoole/src/Command/CommandContainer.php(46): EasySwoole\EasySwoole\Command\DefaultCommand\Start->exec(Array)
+#4 /www/Catqcs/vendor/easyswoole/easyswoole/src/Command/CommandRunner.php(62): EasySwoole\EasySwoole\Command\CommandContainer->hook('start', Array)
+#5 /www/Catqcs/easyswoole(25): EasySwoole\EasySwoole\Command\CommandRunner->run(Array)
+#6 {main}
+  thrown at file:/www/Catqcs/vendor/easyswoole/easyswoole/src/ServerManager.php line:59]
+[2020-04-24 11:03:06][debug][error] : [Uncaught Swoole\Exception: failed to listen server port[0.0.0.0:9501], Error: Address already in use[98] in /www/Catqcs/vendor/easyswoole/easyswoole/src/ServerManager.php:59
+Stack trace:
+#0 /www/Catqcs/vendor/easyswoole/easyswoole/src/ServerManager.php(59): Swoole\Server->__construct('0.0.0.0', 9501, 2, 1)
+#1 /www/Catqcs/vendor/easyswoole/easyswoole/src/Core.php(127): EasySwoole\EasySwoole\ServerManager->createSwooleServer(9501, 2, '0.0.0.0', Array, 2, 1)
+#2 /www/Catqcs/vendor/easyswoole/easyswoole/src/Command/DefaultCommand/Start.php(42): EasySwoole\EasySwoole\Core->createServer()
+#3 /www/Catqcs/vendor/easyswoole/easyswoole/src/Command/CommandContainer.php(46): EasySwoole\EasySwoole\Command\DefaultCommand\Start->exec(Array)
+#4 /www/Catqcs/vendor/easyswoole/easyswoole/src/Command/CommandRunner.php(62): EasySwoole\EasySwoole\Command\CommandContainer->hook('start', Array)
+#5 /www/Catqcs/easyswoole(25): EasySwoole\EasySwoole\Command\CommandRunner->run(Array)
+#6 {main}
+  thrown at file:/www/Catqcs/vendor/easyswoole/easyswoole/src/ServerManager.php line:59]
+[2020-04-24 11:17:21][debug][error] : [controller pool empty for App\HttpController\Home\Union at file:/www/Catqcs/vendor/easyswoole/http/src/Dispatcher.php line:194]
+[2020-04-24 11:18:14][debug][error] : [controller pool empty for App\HttpController\Home\Union at file:/www/Catqcs/vendor/easyswoole/http/src/Dispatcher.php line:194]
+[2020-04-24 16:08:41][debug][error] : [Class 'Easyswoole\Http\AbstractInterface\Controller' not found at file:/www/Catqcs/App/HttpController/Common/Base.php line:7]
+[2020-04-24 16:09:11][debug][error] : [Class 'Easyswoole\Http\AbstractInterface\Controller' not found at file:/www/Catqcs/App/HttpController/Common/Base.php line:7]
+[2020-04-24 16:10:53][debug][error] : [Class 'Easyswoole\Http\AbstractInterface\Controller' not found at file:/www/Catqcs/App/HttpController/Common/Base.php line:7]
+[2020-04-24 16:11:00][debug][error] : [Class 'Easyswoole\Http\AbstractInterface\Controller' not found at file:/www/Catqcs/App/HttpController/Common/Base.php line:7]
+[2020-04-24 16:11:23][debug][error] : [Class 'Easyswoole\Http\AbstractInterface\Controller' not found at file:/www/Catqcs/App/HttpController/Common/Base.php line:7]
+[2020-04-24 16:11:59][debug][error] : [Class 'Easyswoole\Http\AbstractInterface\Controller' not found at file:/www/Catqcs/App/HttpController/Common/Base.php line:7]
+[2020-04-24 16:14:24][debug][notice] : [Undefined property: App\HttpController\Home\Union::$response at file:/www/Catqcs/App/HttpController/Home/Union.php line:10]
+[2020-04-24 16:14:24][debug][error] : [Call to a member function write() on null at file:/www/Catqcs/App/HttpController/Home/Union.php line:10]
+[2020-04-24 16:15:21][debug][notice] : [Undefined property: App\HttpController\Home\Union::$request at file:/www/Catqcs/App/HttpController/Home/Union.php line:10]
+[2020-04-24 16:15:21][debug][error] : [Call to a member function getActionName() on null at file:/www/Catqcs/App/HttpController/Home/Union.php line:10]
+[2020-04-24 16:15:39][debug][error] : [Call to undefined method EasySwoole\Http\Request::getActionName() at file:/www/Catqcs/App/HttpController/Home/Union.php line:10]
+[2020-04-24 17:10:40][debug][error] : [SQLSTATE[HY000] [2002] Connection reset by peer or Transport endpoint is not connected at file:/www/Catqcs/vendor/easyswoole/mysqli/src/Client.php line:69]
+[2020-04-24 17:14:26][debug][error] : [SQLSTATE[HY000] [2002] Connection reset by peer or Transport endpoint is not connected at file:/www/Catqcs/vendor/easyswoole/mysqli/src/Client.php line:69]
+[2020-04-24 17:14:35][debug][error] : [SQLSTATE[HY000] [2002] Connection reset by peer or Transport endpoint is not connected at file:/www/Catqcs/vendor/easyswoole/mysqli/src/Client.php line:69]
+[2020-04-24 17:16:40][debug][error] : [SQLSTATE[HY000] [2002] Connection reset by peer or Transport endpoint is not connected at file:/www/Catqcs/vendor/easyswoole/mysqli/src/Client.php line:69]
+[2020-04-26 09:35:15][debug][error] : [Uncaught Swoole\Exception: failed to listen server port[0.0.0.0:9601], Error: Address already in use[98] in /www/Catqcs/vendor/easyswoole/easyswoole/src/ServerManager.php:59
+Stack trace:
+#0 /www/Catqcs/vendor/easyswoole/easyswoole/src/ServerManager.php(59): Swoole\Server->__construct('0.0.0.0', 9601, 2, 1)
+#1 /www/Catqcs/vendor/easyswoole/easyswoole/src/Core.php(127): EasySwoole\EasySwoole\ServerManager->createSwooleServer(9601, 2, '0.0.0.0', Array, 2, 1)
+#2 /www/Catqcs/vendor/easyswoole/easyswoole/src/Command/DefaultCommand/Start.php(42): EasySwoole\EasySwoole\Core->createServer()
+#3 /www/Catqcs/vendor/easyswoole/easyswoole/src/Command/CommandContainer.php(46): EasySwoole\EasySwoole\Command\DefaultCommand\Start->exec(Array)
+#4 /www/Catqcs/vendor/easyswoole/easyswoole/src/Command/CommandRunner.php(62): EasySwoole\EasySwoole\Command\CommandContainer->hook('start', Array)
+#5 /www/Catqcs/easyswoole(25): EasySwoole\EasySwoole\Command\CommandRunner->run(Array)
+#6 {main}
+  thrown at file:/www/Catqcs/vendor/easyswoole/easyswoole/src/ServerManager.php line:59]
+[2020-04-26 10:20:50][debug][error] : [Declaration of App\HttpController\Common\Base::onrequest() must be compatible with EasySwoole\Http\AbstractInterface\Controller::onRequest(?string $action): ?bool at file:/www/Catqcs/App/HttpController/Common/Base.php line:7]
+[2020-04-26 16:01:12][debug][notice] : [Undefined index: query at file:/www/Catqcs/App/HttpController/Common/Base.php line:37]
+[2020-04-26 16:01:12][debug][error] : [HttpClient: Url is empty]
+[2020-04-26 16:03:32][debug][notice] : [Undefined index: query at file:/www/Catqcs/App/HttpController/Common/Base.php line:37]
+[2020-04-26 16:03:32][debug][error] : [swoole exit]
+[2020-04-26 16:03:57][debug][notice] : [Undefined index: query at file:/www/Catqcs/App/HttpController/Common/Base.php line:37]
+[2020-04-26 16:03:57][debug][error] : [Argument 1 passed to EasySwoole\Http\Response::write() must be of the type string, null given, called in /www/Catqcs/App/HttpController/Common/Base.php on line 84]
+[2020-04-26 16:05:35][debug][notice] : [Undefined index: query at file:/www/Catqcs/App/HttpController/Common/Base.php line:37]
+[2020-04-26 16:05:35][debug][error] : [HttpClient: Url is empty]
+[2020-04-26 16:07:07][debug][notice] : [Undefined index: query at file:/www/Catqcs/App/HttpController/Common/Base.php line:37]
+[2020-04-26 16:07:07][debug][error] : [HttpClient: Url is empty]
+[2020-04-26 16:08:13][debug][notice] : [Undefined index: query at file:/www/Catqcs/App/HttpController/Common/Base.php line:37]
+[2020-04-26 16:09:08][debug][notice] : [Undefined index: query at file:/www/Catqcs/App/HttpController/Common/Base.php line:37]
+[2020-04-26 16:09:08][debug][error] : [HttpClient: Url is empty]
+[2020-04-26 16:10:10][debug][notice] : [Undefined index: query at file:/www/Catqcs/App/HttpController/Common/Base.php line:37]
+[2020-04-26 16:10:10][debug][error] : [HttpClient: Url is empty]
+[2020-04-26 16:11:36][debug][notice] : [Undefined index: query at file:/www/Catqcs/App/HttpController/Common/Base.php line:37]
+[2020-04-26 16:11:46][debug][notice] : [Undefined index: query at file:/www/Catqcs/App/HttpController/Common/Base.php line:37]
+[2020-04-26 16:11:53][debug][notice] : [Undefined index: query at file:/www/Catqcs/App/HttpController/Common/Base.php line:37]
+[2020-04-26 16:11:53][debug][notice] : [Undefined index: query at file:/www/Catqcs/App/HttpController/Common/Base.php line:37]
+[2020-04-26 16:11:54][debug][notice] : [Undefined index: query at file:/www/Catqcs/App/HttpController/Common/Base.php line:37]
+[2020-04-26 16:12:01][debug][notice] : [Undefined index: query at file:/www/Catqcs/App/HttpController/Common/Base.php line:37]
+[2020-04-26 16:12:02][debug][notice] : [Undefined index: query at file:/www/Catqcs/App/HttpController/Common/Base.php line:37]
+[2020-04-26 16:12:09][debug][notice] : [Undefined index: query at file:/www/Catqcs/App/HttpController/Common/Base.php line:37]
+[2020-04-26 16:12:23][debug][notice] : [Undefined index: query at file:/www/Catqcs/App/HttpController/Common/Base.php line:37]
+[2020-04-26 16:12:36][debug][notice] : [Undefined index: query at file:/www/Catqcs/App/HttpController/Common/Base.php line:37]
+[2020-04-26 16:12:41][debug][error] : [GET http://47.107.45.21:1/common/base/index error:110->Connection timed out
+]
+[2020-04-26 16:20:44][debug][notice] : [Undefined index: query at file:/www/Catqcs/App/HttpController/Common/Base.php line:37]
+[2020-04-26 16:21:04][debug][notice] : [Undefined index: query at file:/www/Catqcs/App/HttpController/Common/Base.php line:37]
+[2020-04-26 16:24:45][debug][error] : [you must configure with `--enable-openssl` to support ssl connection when compiling Swoole]
+[2020-04-26 16:35:42][debug][error] : [you must configure with `--enable-openssl` to support ssl connection when compiling Swoole]
+[2020-04-26 16:42:24][debug][error] : [you must configure with `--enable-openssl` to support ssl connection when compiling Swoole]
+[2020-04-26 16:43:39][debug][info] : [PHP Startup: Unable to load dynamic library 'openssl' (tried: /www/server/php/73/lib/php/extensions/no-debug-non-zts-20180731/openssl (/www/server/php/73/lib/php/extensions/no-debug-non-zts-20180731/openssl: cannot open shared object file: No such file or directory), /www/server/php/73/lib/php/extensions/no-debug-non-zts-20180731/openssl.so (/www/server/php/73/lib/php/extensions/no-debug-non-zts-20180731/openssl.so: cannot open shared object file: No such file or directory)) at file:Unknown line:0]
+[2020-04-26 16:52:10][debug][error] : [you must configure with `--enable-openssl` to support ssl connection when compiling Swoole]
+[2020-04-26 17:05:03][debug][error] : [you must configure with `--enable-openssl` to support ssl connection when compiling Swoole]
+[2020-04-26 17:35:06][debug][error] : [you must configure with `--enable-openssl` to support ssl connection when compiling Swoole]
+[2020-04-26 18:09:12][debug][error] : [GET https://apimanage.qianniuhd.com:443/active?product=100906&channel=800021&idfa=6D722711-DE09-4936-B797-C3957ECC63B7&ip=119.133.252.88&version=13.3.1&device=iPhone8%2C1&words=%E8%AF%86%E5%AD%97&udid=f9e52ff96f094b2b05852538b1033cb840459480 705:DNS Lookup resolve timeout
+]
+[2020-04-27 10:16:24][debug][error] : [Uncaught Swoole\Exception: failed to listen server port[0.0.0.0:9601], Error: Address already in use[98] in /www/Catqcs/vendor/easyswoole/easyswoole/src/ServerManager.php:59
+Stack trace:
+#0 /www/Catqcs/vendor/easyswoole/easyswoole/src/ServerManager.php(59): Swoole\Server->__construct('0.0.0.0', 9601, 2, 1)
+#1 /www/Catqcs/vendor/easyswoole/easyswoole/src/Core.php(127): EasySwoole\EasySwoole\ServerManager->createSwooleServer(9601, 2, '0.0.0.0', Array, 2, 1)
+#2 /www/Catqcs/vendor/easyswoole/easyswoole/src/Command/DefaultCommand/Start.php(42): EasySwoole\EasySwoole\Core->createServer()
+#3 /www/Catqcs/vendor/easyswoole/easyswoole/src/Command/CommandContainer.php(46): EasySwoole\EasySwoole\Command\DefaultCommand\Start->exec(Array)
+#4 /www/Catqcs/vendor/easyswoole/easyswoole/src/Command/CommandRunner.php(62): EasySwoole\EasySwoole\Command\CommandContainer->hook('start', Array)
+#5 /www/Catqcs/easyswoole(25): EasySwoole\EasySwoole\Command\CommandRunner->run(Array)
+#6 {main}
+  thrown at file:/www/Catqcs/vendor/easyswoole/easyswoole/src/ServerManager.php line:59]
+[2020-04-27 11:39:27][debug][notice] : [Undefined index: source at file:/www/Catqcs/App/Models/Logic/QcLogic.php line:13]
+[2020-04-27 11:39:27][debug][error] : [Argument 1 passed to EasySwoole\Validate\Validate::addColumn() must be of the type string, null given, called in /www/Catqcs/App/Models/Logic/QcLogic.php on line 13]
+[2020-04-27 11:43:43][debug][notice] : [Undefined index: source at file:/www/Catqcs/App/Models/Logic/QcLogic.php line:13]
+[2020-04-27 11:43:43][debug][error] : [Argument 1 passed to EasySwoole\Validate\Validate::addColumn() must be of the type string, null given, called in /www/Catqcs/App/Models/Logic/QcLogic.php on line 13]
+[2020-04-27 11:44:14][debug][notice] : [Undefined index: source at file:/www/Catqcs/App/Models/Logic/QcLogic.php line:13]
+[2020-04-27 11:44:14][debug][error] : [Argument 1 passed to EasySwoole\Validate\Validate::addColumn() must be of the type string, null given, called in /www/Catqcs/App/Models/Logic/QcLogic.php on line 13]
+[2020-04-27 11:47:16][debug][error] : [Argument 1 passed to EasySwoole\Http\Response::write() must be of the type string, null given, called in /www/Catqcs/App/HttpController/Home/Union.php on line 22]
+[2020-04-27 11:47:29][debug][error] : [Argument 1 passed to EasySwoole\Http\Response::write() must be of the type string, null given, called in /www/Catqcs/App/HttpController/Home/Union.php on line 22]
+[2020-04-27 11:58:59][debug][error] : [Return value of EasySwoole\Http\AbstractInterface\Controller::response() must be an instance of EasySwoole\Http\Response, null returned]
+[2020-04-27 12:57:26][debug][notice] : [Undefined variable: bool at file:/www/Catqcs/App/Models/Logic/QcLogic.php line:17]
+[2020-04-27 12:57:26][debug][notice] : [Undefined variable: bool at file:/www/Catqcs/App/Models/Logic/QcLogic.php line:18]
+[2020-04-27 16:59:43][debug][error] : [Uncaught TypeError: Argument 1 passed to EasySwoole\FastCache\Cache::attachToServer() must be an instance of Swoole\Server, null given, called in /www/Catqcs/EasySwooleEvent.php on line 25 and defined in /www/Catqcs/vendor/easyswoole/fast-cache/src/Cache.php:809
+Stack trace:
+#0 /www/Catqcs/EasySwooleEvent.php(25): EasySwoole\FastCache\Cache->attachToServer(NULL)
+#1 /www/Catqcs/vendor/easyswoole/easyswoole/src/Core.php(119): EasySwoole\EasySwoole\EasySwooleEvent::initialize()
+#2 /www/Catqcs/vendor/easyswoole/easyswoole/src/Command/DefaultCommand/Start.php(42): EasySwoole\EasySwoole\Core->globalInitialize()
+#3 /www/Catqcs/vendor/easyswoole/easyswoole/src/Command/CommandContainer.php(46): EasySwoole\EasySwoole\Command\DefaultCommand\Start->exec(Array)
+#4 /www/Catqcs/vendor/easyswoole/easyswoole/src/Command/CommandRunner.php(62): EasySwoole\EasySwoole\Command\CommandContainer->hook('start', Array)
+#5 /www/Catqcs/easyswoole(25): EasySwoole\EasySwoole\Command\CommandRunner->run(Array)
+#6 {main}
+  thrown at file:/www/Catqcs/vendor/easyswoole/fast-cache/src/Cache.php line:809]
+[2020-04-28 11:20:56][debug][error] : [Uncaught Swoole\Exception: failed to listen server port[0.0.0.0:9601], Error: Address already in use[98] in /www/Catqcs/vendor/easyswoole/easyswoole/src/ServerManager.php:59
+Stack trace:
+#0 /www/Catqcs/vendor/easyswoole/easyswoole/src/ServerManager.php(59): Swoole\Server->__construct('0.0.0.0', 9601, 2, 1)
+#1 /www/Catqcs/vendor/easyswoole/easyswoole/src/Core.php(127): EasySwoole\EasySwoole\ServerManager->createSwooleServer(9601, 2, '0.0.0.0', Array, 2, 1)
+#2 /www/Catqcs/vendor/easyswoole/easyswoole/src/Command/DefaultCommand/Start.php(42): EasySwoole\EasySwoole\Core->createServer()
+#3 /www/Catqcs/vendor/easyswoole/easyswoole/src/Command/CommandContainer.php(46): EasySwoole\EasySwoole\Command\DefaultCommand\Start->exec(Array)
+#4 /www/Catqcs/vendor/easyswoole/easyswoole/src/Command/CommandRunner.php(62): EasySwoole\EasySwoole\Command\CommandContainer->hook('start', Array)
+#5 /www/Catqcs/easyswoole(25): EasySwoole\EasySwoole\Command\CommandRunner->run(Array)
+#6 {main}
+  thrown at file:/www/Catqcs/vendor/easyswoole/easyswoole/src/ServerManager.php line:59]
+[2020-04-28 11:21:22][debug][warning] : [require_once(../../Vendor/ip/ip.php): failed to open stream: No such file or directory at file:/www/Catqcs/App/HttpController/Home/Union.php line:26]
+[2020-04-28 11:21:22][debug][error] : [require_once(): Failed opening required '../../Vendor/ip/ip.php' (include_path='.:/www/server/php/73/lib/php') at file:/www/Catqcs/App/HttpController/Home/Union.php line:26]
